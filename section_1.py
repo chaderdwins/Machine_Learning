@@ -1,4 +1,4 @@
-#How does data enable machine learning
+#1.1
 
 #ex: images of animals
 input = [1,2,3,4,5]
@@ -25,8 +25,36 @@ input, output
 
 #feedback loop
 #error = machine_learned_output - output
-input:output = 1:2
+#input:output = 1:2
 model prediction[1] = 3
 error = 3 - 2 = 1
 
-#what is a machine learning model? (real life simplification)
+#1.2 - Tasks
+#Machine learning is all about making predictions
+#Regression is the task of predicting numbers
+
+input = [0,1,2,3,4]
+output = [0,2,4,6,8]
+
+# Classification is the task of predicting labels
+input = [0,1,2,3,4]
+labels = ["mouse", "cat", "dog", "car"]
+
+# other predictive tasks
+# recommendations, clusters
+
+#  1.4 - Learning methods
+
+# Supervised Learning
+# regression task example
+input = [1,2,3,4,5]
+output = [2,4,6,8,10]
+
+# Unsupervised Learning
+ input = [1,2,3,4,5,6,7,8]
+
+# Reinforcement Learning
+state = (internal_state, environment)
+action = prediction
+
+
